@@ -4,12 +4,13 @@ The type definitions has many breaking changes since [DefinitelyTyped #24566](ht
 
 I created this repository used **in my project** before merging.
 
-```
+```bash
 # use offical version (recommend)
 npm i -D @types/graphql
 
 # or try v0.13.2
 cd your/project/path
+rm -rf ./node_modules/@types/graphql
 ln -s path/to/types-graphql ./node_modules/@types/graphql
 ```
 
