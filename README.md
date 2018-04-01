@@ -1,5 +1,17 @@
-The type definitions has many breaking changes since [DefinitelyTyped#24566](https://github.com/DefinitelyTyped/DefinitelyTyped/pull/24566).
-I created this repository used in my project before merging.
+## Notice
+
+The type definitions has many breaking changes since [DefinitelyTyped #24566](https://github.com/DefinitelyTyped/DefinitelyTyped/pull/24566).
+
+I created this repository used **in my project** before merging.
+
+```
+# use offical version (recommend)
+npm i -D @types/graphql
+
+# or try v0.13.2
+cd your/project/path
+ln -s path/to/types-graphql ./node_modules/@types/graphql
+```
 
 ## Summary
 
